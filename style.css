@@ -1,0 +1,106 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: slategrey;
+  color: white;
+  
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+  font-family: Georgia, arial, sans-serif;
+}
+
+button {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#button1 {
+  background: lightgreen;
+  border-radius: 50%
+}
+
+#button1:active, #button1.lit {
+  background-image: url( 'https://cdn.glitch.com/edd4d4a6-3ca9-4b5a-9cb7-151dcd645bd2%2Fbulbasaur-icon-6.jpg?v=1616294654669');
+  background-position: right;
+  border-radius: 50%
+  width: 200px;
+  height: 200px;
+}
+
+#button2 {
+  background: lightblue;
+  border-radius: 50%
+}
+#button2:active, #button2.lit {
+  background-image: url( 'https://cdn.glitch.com/edd4d4a6-3ca9-4b5a-9cb7-151dcd645bd2%2F007Squirtle.png?v=1616294992787');
+  background-position: left;
+  border-radius: 50%
+  width: 200px;
+  height: 200px;
+}
+
+#button3 {
+  background: pink;
+  border-radius: 50%
+}
+#button3:active, #button3.lit {
+  background-image: url( 'https://cdn.glitch.com/edd4d4a6-3ca9-4b5a-9cb7-151dcd645bd2%2FMew.png?v=1616294768115');
+  background-position: center;
+  border-radius: 50%
+  width: 200px;
+  height: 200px; 
+}
+
+#button4 {
+  background: yellow;
+  border-radius: 50%
+}
+#button4:active, #button4.lit {
+  background-image: url( 'https://cdn.glitch.com/edd4d4a6-3ca9-4b5a-9cb7-151dcd645bd2%2F37444-9-pikachu-file-thumb.png?v=1616295158161');
+  background-position: right;
+  border-radius: 50%
+  width: 200px;
+  height: 200px; 
+}
+
+#button5 {
+  background: lightgray;
+  border-radius: 50%
+}
+#button5:active, #button5.lit {
+  background-image: url( 'https://cdn.glitch.com/edd4d4a6-3ca9-4b5a-9cb7-151dcd645bd2%2F200px-Eevee_Ilustraci%C3%B3n.png?v=1616294758359');
+  background-position: left;
+  border-radius: 50%
+  width: 200px;
+  height: 200px; 
+}
+
+#button6 {
+  background: tomato;
+  border-radius: 50%
+}
+#button6:active, #button6.lit {
+  background-image: url( 'https://cdn.glitch.com/edd4d4a6-3ca9-4b5a-9cb7-151dcd645bd2%2FCharmander%20(1).png?v=1616295260604');
+  background-position: center;
+  border-radius: 50%
+  width: 200px;
+  height: 200px; 
+}
+
+
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+.hidden {
+  display: none;
+}

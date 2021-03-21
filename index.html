@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Light Sound Memory Game</h1>
+    
+    <p>
+      Welcome to the Light Sound Memory Game! <br> 
+      Click on the corresponding circles based off of the auditory and visual cues!
+    </p>
+
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    
+    <button id="stopBtn" class = "hidden" onclick = "stopGame()">    
+      Stop
+    </button>
+    
+    <p id = "chances">
+      Chances: 
+    </p>
+    
+    <p id = "time">
+      Time remaining:
+    </p>
+    
+    <script>
+      //bulbasaur
+      var snd1 = new Audio("https://cdn.glitch.com/edd4d4a6-3ca9-4b5a-9cb7-151dcd645bd2%2F001-bulbasaur.mp3?v=1616295812691");
+      snd1.volume = 0.1;
+    </script>
+    
+    <script>
+      //squirtle
+      var snd2 = new Audio("https://cdn.glitch.com/edd4d4a6-3ca9-4b5a-9cb7-151dcd645bd2%2F007-squirtle.mp3?v=1616296438912");
+      snd2.volume = 0.1;
+    </script>
+    
+    <script>
+      //mew
+      var snd3 = new Audio("https://cdn.glitch.com/edd4d4a6-3ca9-4b5a-9cb7-151dcd645bd2%2Fmew.mp3?v=1616300075471");
+      snd3.volume = 0.1;
+    </script>
+    
+    <script>
+      //pikachu
+      var snd4 = new Audio("https://cdn.glitch.com/edd4d4a6-3ca9-4b5a-9cb7-151dcd645bd2%2F025-kanto-pikachu.mp3?v=1616300239786");
+      snd4.volume = 0.15;
+    </script>
+    
+    <script>
+      //eevee
+      var snd5 = new Audio("https://cdn.glitch.com/edd4d4a6-3ca9-4b5a-9cb7-151dcd645bd2%2Feevee-starter.mp3?v=1616300347673");
+      snd5.volume = 0.15;
+    </script>
+    
+    <script>
+      //charmander
+      var snd6 = new Audio("https://cdn.glitch.com/edd4d4a6-3ca9-4b5a-9cb7-151dcd645bd2%2F004-charmander.mp3?v=1616300401607");
+      snd6.volume = 0.15;
+    </script>
+    
+    <div id = "gameButtonArea">
+      <button id = "button1" onmousedown="startTone(1)" onmouseup="stopTone()" onclick="snd1.play(); guess(1)">       
+      </button>
+      <button id = "button2" onmousedown="startTone(2)" onmouseup="stopTone()" onclick="guess(2); snd2.play()">
+      </button>
+      <button id = "button3" onmousedown="startTone(3)" onmouseup="stopTone()" onclick="guess(3); snd3.play()">
+      </button>
+      <button id = "button4" onmousedown="startTone(4)" onmouseup="stopTone()" onclick="guess(4); snd4.play()">
+      </button>
+      <button id = "button5" onmousedown="startTone(5)" onmouseup="stopTone()" onclick="guess(5); snd5.play()">
+      </button>
+      <button id = "button6" onmousedown="startTone(6)" onmouseup="stopTone()" onclick="guess(6); snd6.play()">
+      </button>
+    </div>
+
+  </body>
+</html>
