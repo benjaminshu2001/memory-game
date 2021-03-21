@@ -45,11 +45,13 @@ Here's a walkthrough of implemented user stories:
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+
 An outside resource that I utilized in order to complete my submission was the w3school website that was provided via the concise instructions for this assignment.
 For the optional functions, I often referred to StackOverflow for any problems that I encountered. Due to my lack of prior knowledge within HTML and CSS, I used online
 resources to help me better understand and learn new functions.
 
-2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
+ 
 Since I have already been exposed to JavaScript in the past, thanks to a computer science course that I had taken in high school, I was able to complete this assignment
 with a bit more confidence. The instructions were very well-explained, and it felt like it was honestly not too difficult to follow. However, when it came to the optional features, 
 it became more difficult as I was unfamiliar with pretty much all of the HTML and CSS libraries. Fortunately, since I had a background with JavaScript, I was able to implement most features
@@ -65,16 +67,15 @@ and documentations on how these two methods worked. It was frustrating but rewar
 the clock.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+
 Some questions that I have about web development is where should one start when attempting to even develop a larger site? This was a question that I had mustered up in the past, but once I finished this assignment,
 I felt as if the process in web development was not nearly as tantalizing as it seemed to be in the past. Once you establish the skeleton, it seems much more achievable to complete a website. However, that does not mean 
 I am underestimating the process, as I know that web design and development is difficult as you must always be learning about new methods and functions. Another question is how do people typically learn more about web 
 development as it is constantly changing? Is there a database where you can see recent updates for the languages in order to improve your own web development skills?
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-If I had a few more hours to work on this project, I'd probably try to make some random songs with the buttons by adjusting their frequencies, or just add a feature where you can see how fast you have completed 
-the game. It would be interesting as it would incentivize people to play the game more, along with the fact that it would be interesting to see how fast people could clear the game. Another thing that I would do
-would be to perhaps fix up the functions that I created - while the random feature works, I would rather it pick from a variety of different tunes (like short song renditions i.e. pop/classical songs) 
-that one could make with the different notes from the blocks.
+
+If I had a few more hours to work on this project, I'd probably try to make some random songs with the buttons by adjusting their frequencies, or just add a feature where you can see how fast you have completed the game. It would be interesting as it would incentivize people to play the game more, along with the fact that it would be interesting to see how fast people could clear the game. Another thing that I would do would be to perhaps fix up the functions that I created - while the random feature works, I would rather it pick from a variety of different tunes (like short song renditions i.e. pop/classical songs) that one could make with the different notes from the blocks.
 
 
 
